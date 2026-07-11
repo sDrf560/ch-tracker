@@ -1,0 +1,36 @@
+name: Chrome Hearts Tracker
+
+on:
+  schedule:
+    - cron: "*/20 * * * *"   # every 20 minutes (GitHub may delay a few min)
+  workflow_dispatch:          # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ch-tracker
+  cancel-in-progress: false
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run tracker
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python tracker.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name "ch-tracker-bot"
+          git config user.email "actions@github.com"
+          git add state.json
+          git diff --cached --quiet || git commit -m "Update tracker state"
+          git push
