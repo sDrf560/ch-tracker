@@ -2,7 +2,7 @@ name: Chrome Hearts Tracker
 
 on:
   schedule:
-    - cron: "*/20 * * * *"   # every 20 minutes (GitHub may delay a few min)
+    - cron: "*/10 * * * *"   # every 10 minutes (GitHub may delay a few min)
   workflow_dispatch:          # lets you run it manually from the Actions tab
 
 permissions:
