@@ -335,9 +335,17 @@
     "price": "150",
     "url": "https://www.chromehearts.com/scents/33-scented-candle-set-35g/214141D7BXXX01T.html"
   },
+  "21761920SE5101X": {
+    "category": "eyewear",
+    "name": "HOLLYWEIRD",
+    "out_of_stock": false,
+    "price": null,
+    "url": "https://www.chromehearts.com/eyewear/hollyweird/21761920SE5101X.html"
+  },
   "_categories": [
     "/baccarat",
     "/boxers-leggings",
+    "/eyewear",
     "/intimates",
     "/scents",
     "/socks"
