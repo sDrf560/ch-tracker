@@ -335,10 +335,18 @@
     "price": "150",
     "url": "https://www.chromehearts.com/scents/33-scented-candle-set-35g/214141D7BXXX01T.html"
   },
+  "218126MABXXX00D": {
+    "category": "scarf",
+    "name": "DOUBLE PEONY SCARF",
+    "out_of_stock": false,
+    "price": null,
+    "url": "https://www.chromehearts.com/scarf/double-peony-scarf/218126MABXXX00D.html"
+  },
   "_categories": [
     "/baccarat",
     "/boxers-leggings",
     "/intimates",
+    "/scarf",
     "/scents",
     "/socks"
   ]
