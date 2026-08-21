@@ -6,20 +6,6 @@
     "price": "255",
     "url": "https://www.chromehearts.com/intimates/ch-plus-tights/092826AI6XXXXXX.html"
   },
-  "129112WHT2XL03C": {
-    "category": "shirt",
-    "name": "LONG SLEEVE POCKET CREW",
-    "out_of_stock": false,
-    "price": null,
-    "url": "https://www.chromehearts.com/shirt/long-sleeve-pocket-crew/129112WHT2XL03C.html"
-  },
-  "129112WHTXXX03C": {
-    "category": "shirt",
-    "name": "LONG SLEEVE POCKET CREW",
-    "out_of_stock": false,
-    "price": null,
-    "url": "https://www.chromehearts.com/shirt/long-sleeve-pocket-crew/129112WHTXXX03C.html"
-  },
   "146053XXXXXX00R": {
     "category": "scents",
     "name": "22 INCENSE SET WITH HOLDER",
@@ -362,7 +348,6 @@
     "/intimates",
     "/scarf",
     "/scents",
-    "/shirt",
     "/socks"
   ]
 }
