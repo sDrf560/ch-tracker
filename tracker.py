@@ -55,7 +55,11 @@ def discover_categories(homepage_html: str) -> list:
     return sorted(found)
 
 STATE_FILE = "state.json"
-NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
+NTFY_TOPICS = [
+    t.strip()
+    for t in os.environ.get("NTFY_TOPIC", "").replace(";", ",").split(",")
+    if t.strip()
+]
 NTFY_SERVER = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
 
 HEADERS = {
@@ -127,7 +131,7 @@ def parse_category(html: str, category: str) -> dict:
 
 
 def notify(title: str, message: str, url: str = None, priority: str = "default"):
-    if not NTFY_TOPIC:
+    if not NTFY_TOPICS:
         print(f"[no NTFY_TOPIC set] {title}: {message}")
         return
     headers = {
@@ -137,16 +141,18 @@ def notify(title: str, message: str, url: str = None, priority: str = "default")
     }
     if url:
         headers["Click"] = url
-    req = urllib.request.Request(
-        f"{NTFY_SERVER}/{NTFY_TOPIC}",
-        data=message.encode("utf-8"),
-        headers=headers,
-        method="POST",
-    )
-    try:
-        urllib.request.urlopen(req, timeout=15)
-    except Exception as exc:  # noqa: BLE001
-        print(f"Notification failed: {exc}", file=sys.stderr)
+    # Send to every configured topic; one failure must not block the rest
+    for topic in NTFY_TOPICS:
+        req = urllib.request.Request(
+            f"{NTFY_SERVER}/{topic}",
+            data=message.encode("utf-8"),
+            headers=headers,
+            method="POST",
+        )
+        try:
+            urllib.request.urlopen(req, timeout=15)
+        except Exception as exc:  # noqa: BLE001
+            print(f"Notification to '{topic}' failed: {exc}", file=sys.stderr)
 
 
 def load_state() -> dict:
