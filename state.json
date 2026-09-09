@@ -6,41 +6,6 @@
     "price": "255",
     "url": "https://www.chromehearts.com/intimates/ch-plus-tights/092826AI6XXXXXX.html"
   },
-  "146053XXXXXX00R": {
-    "category": "scents",
-    "name": "22 INCENSE SET WITH HOLDER",
-    "out_of_stock": false,
-    "price": "200",
-    "url": "https://www.chromehearts.com/scents/22-incense-set-with-holder/146053XXXXXX00R.html"
-  },
-  "146053XXXXXX142": {
-    "category": "scents",
-    "name": "33 INCENSE SET WITH HOLDER",
-    "out_of_stock": false,
-    "price": "200",
-    "url": "https://www.chromehearts.com/scents/33-incense-set-with-holder/146053XXXXXX142.html"
-  },
-  "148310SLVXXX186": {
-    "category": "scents",
-    "name": "MATCHSTICK HOLDER",
-    "out_of_stock": true,
-    "price": "1500",
-    "url": "https://www.chromehearts.com/scents/matchstick-holder/148310SLVXXX186.html"
-  },
-  "151407XXXXXX00S": {
-    "category": "scents",
-    "name": "22 INCENSE REFILL",
-    "out_of_stock": false,
-    "price": "100",
-    "url": "https://www.chromehearts.com/scents/22-incense-refill/151407XXXXXX00S.html"
-  },
-  "151407XXXXXX169": {
-    "category": "scents",
-    "name": "33 INCENSE REFILL",
-    "out_of_stock": false,
-    "price": "100",
-    "url": "https://www.chromehearts.com/scents/33-incense-refill/151407XXXXXX169.html"
-  },
   "158552BLKXXXXXX": {
     "category": "boxers-leggings",
     "name": "BOXER BRIEF   SHORTS",
@@ -307,40 +272,12 @@
     "price": "100",
     "url": "https://www.chromehearts.com/boxers-leggings/foti-boxer-brief---long/208280XXXXXXXXX.html"
   },
-  "208531BLUXXX752": {
-    "category": "scents",
-    "name": "33 PERFUMED HAND SPRAY",
-    "out_of_stock": false,
-    "price": "110",
-    "url": "https://www.chromehearts.com/scents/33-perfumed-hand-spray/208531BLUXXX752.html"
-  },
-  "208531PNKXXX751": {
-    "category": "scents",
-    "name": "22 PERFUMED HAND SPRAY",
-    "out_of_stock": false,
-    "price": "110",
-    "url": "https://www.chromehearts.com/scents/22-perfumed-hand-spray/208531PNKXXX751.html"
-  },
   "209670XXXXXXXXX": {
     "category": "boxers-leggings",
     "name": "BOXER BRIEF   CLASSIC RIB",
     "out_of_stock": false,
     "price": "120",
     "url": "https://www.chromehearts.com/boxers-leggings/boxer-brief---classic-rib/209670XXXXXXXXX.html"
-  },
-  "214141D7BXXX01S": {
-    "category": "scents",
-    "name": "22 SCENTED CANDLE SET 35G",
-    "out_of_stock": true,
-    "price": "150",
-    "url": "https://www.chromehearts.com/scents/22-scented-candle-set-35g/214141D7BXXX01S.html"
-  },
-  "214141D7BXXX01T": {
-    "category": "scents",
-    "name": "33 SCENTED CANDLE SET 35G",
-    "out_of_stock": true,
-    "price": "150",
-    "url": "https://www.chromehearts.com/scents/33-scented-candle-set-35g/214141D7BXXX01T.html"
   },
   "_categories": [
     "/baccarat",
