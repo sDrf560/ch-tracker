@@ -1,4 +1,11 @@
 {
+  "053702REDXXX316": {
+    "category": "hat",
+    "name": "RED WATCH CAP",
+    "out_of_stock": false,
+    "price": null,
+    "url": "https://www.chromehearts.com/hat/red-watch-cap/053702REDXXX316.html"
+  },
   "092826AI6XXXXXX": {
     "category": "intimates",
     "name": "CH PLUS TIGHTS",
@@ -282,6 +289,7 @@
   "_categories": [
     "/baccarat",
     "/boxers-leggings",
+    "/hat",
     "/intimates",
     "/scents",
     "/socks"
