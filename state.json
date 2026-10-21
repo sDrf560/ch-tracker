@@ -156,7 +156,7 @@
   "177731CRYXXX042": {
     "category": "baccarat",
     "name": "CHAMPAGNE FLUTE",
-    "out_of_stock": false,
+    "out_of_stock": true,
     "price": "2800",
     "url": "https://www.chromehearts.com/baccarat/champagne-flute/177731CRYXXX042.html"
   },
@@ -170,7 +170,7 @@
   "177733CRYXXX042": {
     "category": "baccarat",
     "name": "WINE",
-    "out_of_stock": false,
+    "out_of_stock": true,
     "price": "2200",
     "url": "https://www.chromehearts.com/baccarat/wine/177733CRYXXX042.html"
   },
