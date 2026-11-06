@@ -251,6 +251,20 @@
     "price": "385",
     "url": "https://www.chromehearts.com/intimates/lace-underwire-bra/202334AFWXXX030.html"
   },
+  "204651B2UMED07M": {
+    "category": "slippers",
+    "name": "HOTEL SLIPPERS",
+    "out_of_stock": false,
+    "price": null,
+    "url": "https://www.chromehearts.com/slippers/hotel-slippers/204651B2UMED07M.html"
+  },
+  "204651B2UXXX07M": {
+    "category": "slippers",
+    "name": "HOTEL SLIPPERS",
+    "out_of_stock": false,
+    "price": null,
+    "url": "https://www.chromehearts.com/slippers/hotel-slippers/204651B2UXXX07M.html"
+  },
   "207467CRYXXX054": {
     "category": "baccarat",
     "name": "SHOT GLASS",
@@ -279,11 +293,20 @@
     "price": "130",
     "url": "https://www.chromehearts.com/boxers-leggings/boxer-brief---classic-rib/209670XXXXXXXXX.html"
   },
+  "222575AEGXXX059": {
+    "category": "scarf",
+    "name": "MATH PLUS SCARF",
+    "out_of_stock": false,
+    "price": null,
+    "url": "https://www.chromehearts.com/scarf/math-plus-scarf/222575AEGXXX059.html"
+  },
   "_categories": [
     "/baccarat",
     "/boxers-leggings",
     "/intimates",
+    "/scarf",
     "/scents",
+    "/slippers",
     "/socks"
   ]
 }
