@@ -6,6 +6,20 @@
     "price": "255",
     "url": "https://www.chromehearts.com/intimates/ch-plus-tights/092826AI6XXXXXX.html"
   },
+  "152701BLKXSM754": {
+    "category": "hoodie",
+    "name": "BLUE GLITTER HOODIE",
+    "out_of_stock": false,
+    "price": null,
+    "url": "https://www.chromehearts.com/hoodie/blue-glitter-hoodie/152701BLKXSM754.html"
+  },
+  "152701BLKXXX754": {
+    "category": "hoodie",
+    "name": "BLUE GLITTER HOODIE",
+    "out_of_stock": false,
+    "price": null,
+    "url": "https://www.chromehearts.com/hoodie/blue-glitter-hoodie/152701BLKXXX754.html"
+  },
   "158552BLKXXXXXX": {
     "category": "boxers-leggings",
     "name": "BOXER BRIEF   SHORTS",
@@ -275,6 +289,7 @@
   "_categories": [
     "/baccarat",
     "/boxers-leggings",
+    "/hoodie",
     "/intimates",
     "/scents",
     "/socks"
